@@ -30,3 +30,22 @@ client.on('interactionCreate', async interaction => {
 
 // Login to Discord with your client's token
 client.login(token);
+
+
+
+// MEANT TO TRIGGER AT THE RIGHT TIME TO PING US
+// function isTime()
+// {
+//     const date = new Date();
+//     let hour = date.getHours();
+//     let minute = date.getMinutes();
+    
+//     if ((hour == 8 && minute >= 50) || (hour == 12 && minute >= 30) || (hour == 13 && minute >= 20) || (hour == 17 && minute >= 0))
+//         return 1;
+//     return 0;
+// }
+
+// if (isTime)
+// {
+// 	("@everyone VAS Y POINTE JAI DIT");
+// }
